@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeArcanoid_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Arcanoid",
 				PKG_CompiledIn | 0x00000000,
-				0xDCB44FD5,
-				0xA240A2E5,
+				0xBC00C709,
+				0x52134A9F,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

@@ -1,58 +1,91 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\Arcanoid.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{DEF4BA9A-354C-42D9-BD50-7CB9153956DB}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Arcanoid.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\ArcanoidEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{6095046D-35D3-4168-BCD8-D6FBFC5CEC50}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\Arcanoid">
-			<UniqueIdentifier>{18C9044A-C91E-4BE9-A678-0B8BB9ED2FE6}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Arcanoid\Arcanoid.Build.cs">
-			<Filter>Source\Arcanoid</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\Arcanoid\Arcanoid.cpp">
-			<Filter>Source\Arcanoid</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Arcanoid\Arcanoid.h">
-			<Filter>Source\Arcanoid</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Arcanoid\ArcanoidCharacter.cpp">
-			<Filter>Source\Arcanoid</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Arcanoid\ArcanoidCharacter.h">
-			<Filter>Source\Arcanoid</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Arcanoid\ArcanoidGameMode.cpp">
-			<Filter>Source\Arcanoid</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Arcanoid\ArcanoidGameMode.h">
-			<Filter>Source\Arcanoid</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Arcanoid.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{56D89D18-6408-4A79-88D2-57B416F6E1FA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Arcanoid.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ArcanoidEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{DFB61BAE-7D13-4266-9D95-868F10D459C2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Arcanoid">
+      <UniqueIdentifier>{DB37495A-FC8D-4628-8651-CA9C0E69368D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Arcanoid\Arcanoid.Build.cs">
+      <Filter>Source\Arcanoid</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Arcanoid\Arcanoid.cpp">
+      <Filter>Source\Arcanoid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arcanoid\Arcanoid.h">
+      <Filter>Source\Arcanoid</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Arcanoid\ArcanoidCharacter.cpp">
+      <Filter>Source\Arcanoid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arcanoid\ArcanoidCharacter.h">
+      <Filter>Source\Arcanoid</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Arcanoid\ArcanoidGameMode.cpp">
+      <Filter>Source\Arcanoid</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arcanoid\ArcanoidGameMode.h">
+      <Filter>Source\Arcanoid</Filter>
+    </ClInclude>
+    <Filter Include="Source\Arcanoid\Private">
+      <UniqueIdentifier>{903B39A2-C196-4832-9430-E4FB9FA78A00}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Arcanoid\Private\PhysicsEffect.cpp">
+      <Filter>Source\Arcanoid\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arcanoid\Private\PhysicsEffect.h">
+      <Filter>Source\Arcanoid\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Arcanoid\Private\ShapeBase.cpp">
+      <Filter>Source\Arcanoid\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arcanoid\Private\ShapeBase.h">
+      <Filter>Source\Arcanoid\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Arcanoid\Private\ShapePrimitive.cpp">
+      <Filter>Source\Arcanoid\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arcanoid\Private\ShapePrimitive.h">
+      <Filter>Source\Arcanoid\Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Libs.h">
+      <Filter>Source\Arcanoid\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="GravityWireComponent.h">
+      <Filter>Source\Arcanoid\Private</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GravityWireComponent.cpp">
+      <Filter>Source\Arcanoid\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
